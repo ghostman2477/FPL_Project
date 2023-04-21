@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    background-color: #fff;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+  }
+  .avatar{
+	  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+}
+.marginpoint{
+	margin-left:60%;
+}
+ .dropdown-content{
+	 display: none;
+	 min-width:100px;
+	 border-radius:5px;
+	
+ }
+ .marginpoint:hover .dropdown-content{display: block;
+ 
+ cursor: pointer;
+  }
+   
+  .anchstyle{
+	width: 100%;  
+	border-radius:5px;
+  }
+
+  /* .img-div {
+    width: 50%;
+  } */
+
+  .card-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 35%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 10px #e3e3e3;
+  }
+  .product-details{
+	  height:auto;
+	  
+  }
+  
+  .padall{
+	  padding: 5% 5% 5% 5%;
+  }
+  
+  .tm{
+display: -webkit-box;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+	
+    
+}
+
+  @media only screen and (max-width: 576px) {
+	   .padall{
+	  padding: 5% 5% 5% 5%;
+	 
+  }
+  .mblpad{
+	    padding: 5% 5% 5% 5%;
+  }
+  .padmbl{
+	  margin-left: 5%;
+	  margin-right: 5%;
+  }
+    .card-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+	height: 300px;;
+    margin-left: 5%;
+    box-shadow: 10px 10px 10px #e3e3e3;
+  }
+  .p-btn{
+	  margin-top: 5%;
+  }
+  .btnwidth {
+  width: 100%;
+   /* or whatever you like */
+}
+  .divbtn{
+	  
+  display: flex;
+  justify-content: space-around;
+
+  }
+  }

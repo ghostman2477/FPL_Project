@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="signin.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<script type="text/javascript" src="../Login/RegServicecall.js"></script>
+	<script type="text/javascript" src="../SignIn/PostSignIn.js"></script>
+	<title>fpl Store</title>
+</head>
+
+<body>
+
+
+	<div class="container">
+		<div class="title">SignIn</div>
+		<div class="content">
+			<form id="myfrm"  onsubmit="setSession()">
+				<div class="input-box">
+					<span class="details">E-mail</span>
+					<input id="txtEmail" type="email"  required />
+				</div>
+				<div class="input-box">
+					<span class="details">Password</span>
+					<input id="txtpass" type="password"  required />
+				</div>
+				<div class="button1">
+					<input id="but_submit" type="submit" value="SignIn" />
+				</div>
+				<div class="acc-missing">
+					<p>Don't have an account? <a class="reg" href="../SignUp/SignUp.html">Click</a> for Registration</p>
+				</div>
+			</form>
+
+		</div>
+
+	</div>
+
+
+
+</body>
+
+</html>
